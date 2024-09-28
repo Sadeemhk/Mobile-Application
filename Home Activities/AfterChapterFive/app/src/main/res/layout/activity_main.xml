@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="188dp"
+        android:layout_height="195dp"
+        android:layout_gravity="right"
+        android:src="@drawable/uj_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:textSize="60dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:textColor="#87CFEB"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Write Your Email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/Password"
+        android:inputType="textPassword"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="forgot password?"
+        android:textColor="#87CFEB"
+        android:layout_marginBottom="10dp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:background="#87CFEB"
+        android:textColor="#fff"
+        android:id="@+id/login"
+        android:onClick="onButtonClicked"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create new account?"
+        android:textColor="#87CFEB"
+        android:layout_gravity="left"/>
+
+</LinearLayout>

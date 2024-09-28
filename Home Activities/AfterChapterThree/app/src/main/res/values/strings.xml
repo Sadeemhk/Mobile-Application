@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AfterChapterThree</string>
+    <string name="send">Submit</string>
+    <string name="hint1">Student ID</string>
+    <string name="hint2">Student Name</string>
+    <string name="chooser">Send a message via.....</string>
+</resources>

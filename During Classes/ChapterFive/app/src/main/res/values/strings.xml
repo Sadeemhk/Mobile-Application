@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ChapterFive</string>
+    <string name="to">To</string>
+    <string name="message">Message</string>
+    <string name="sent">Sent</string>
+    <string name="clickme">Click Me!</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="milk">Milk</string>
+    <string name="sugar">Sugar</string>
+    <string name="cavemen">Cavemen</string>
+    <string name="astronauts">Astronauts</string>
+    <string name="ClickMe">Click me</string>
+</resources>

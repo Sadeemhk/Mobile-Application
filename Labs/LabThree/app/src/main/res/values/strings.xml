@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LabThree</string>
+    <string name="done">Done</string>
+    <string name="hint">Write your students ID </string>
+</resources>

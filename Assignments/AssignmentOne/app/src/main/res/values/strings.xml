@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AssignmentOne</string>
+    <string-array name="Country">
+        <item>Saudi Arabia</item>
+        <item>United Arab Emirates</item>
+        <item>Kuwait</item>
+    </string-array>
+</resources>

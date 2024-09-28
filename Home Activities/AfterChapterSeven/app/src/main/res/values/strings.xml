@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AfterChapterSeven</string>
+    <string name="names"> Group members names</string>
+    <string name="id"> Group members IDs</string>
+    <string name="ok">Add</string>
+    <string-array name="names">
+        <item>Sadeem</item>
+        <item>Eleen</item>
+        <item>Toleen</item>
+        <item>Dana</item>
+    </string-array>
+</resources>

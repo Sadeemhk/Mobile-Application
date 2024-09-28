@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AfterChapterTwo</string>
+    <string name="button">Display</string>
+    <string name="textView">Group Members</string>
+    <string-array name="std_names">
+        <item>Sadeem</item>
+        <item>Hassan</item>
+        <item>Ahmed</item>
+        <item>Aljahdali</item>
+    </string-array>
+</resources>

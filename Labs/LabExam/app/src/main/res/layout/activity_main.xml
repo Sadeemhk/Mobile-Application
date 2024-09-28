@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/duck"
+        android:layout_width="wrap_content"
+        android:layout_height="289dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/duck" />
+
+    <EditText
+        android:id="@+id/stdname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Student Name:"
+        android:layout_below="@+id/duck"/>
+
+
+    <EditText
+        android:id="@+id/program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Program Name:"
+        android:layout_below="@+id/stdname"/>
+
+    <EditText
+        android:id="@+id/duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Duration:"
+        android:layout_below="@+id/program"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/duration"
+        android:layout_marginTop="16dp"
+        android:text="Submit"
+        android:gravity="center"/>
+
+
+</RelativeLayout>
